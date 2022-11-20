@@ -150,7 +150,7 @@ int main() // main
       
       output:
       
-      ![image](https://user-images.githubusercontent.com/91418248/202900366-19933513-b532-4e82-bcc6-25febab0ec3a.png)
+![image](https://user-images.githubusercontent.com/91418248/202906062-067bcb89-1aaf-4b9a-8166-7f77227156a6.png)
 
       [case 2]
       
