@@ -6,7 +6,7 @@ Roll no.: 23
 
 Batch: A2
 
-                                                              TA_2_DAA
+                                                   TA_2_DAA
                                                                      
  ==> Problem Statement: 
  
@@ -21,7 +21,7 @@ For example, if we consider the list of nums = [1, 2, 3, 4] . If the target = 7 
 
 
 
-                                                                CODE:
+                                                   CODE:
                                                               
  
 #include <bits/stdc++.h>
