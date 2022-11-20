@@ -94,7 +94,7 @@ void generateSubsets(int s[], int num, int target_sum) // this function finds su
     free(tuplet_vector);
 }
 
-int main() // main
+int main() // main function
 {
 
     int num;
@@ -130,13 +130,13 @@ OUTPUT:
  Enter the total number of coins and notes: 8
       
       Enter the values of money: 1
-      2
-      5
-      10
       20
+      10
       50
       100
       200
+      5
+      2
       
       Enter the total sum: 87
       
