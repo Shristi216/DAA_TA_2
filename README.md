@@ -116,13 +116,15 @@ int main() // main function
 
 
 OUTPUT:
+
+
 ![image](https://user-images.githubusercontent.com/91418248/202909179-f2c9d4ca-3c80-4f9d-9a0f-b9657eafa400.png)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ==> Applications of subset-sum-problem:
 
-  [1]Totaling the money for buying a movie ticket
+  [1] buying a movie ticket
 
   While buying a ticket for a movie show a person has variety of coins and notes (coins:1,2,5,10,20 and notes:10,20,50,100,200,1000,2000) and the person has to total     up  the coins and notes to meet the sum that will complete the required cost of buying the ticket.
 
@@ -144,7 +146,7 @@ OUTPUT:
 
 
 
-  [2]In a Puzzle Block Game
+  [2] Puzzle Block Game
 
   A puzzle block game consisting of various pieces and each piece covers some area the player sets a target to cover some area daily and finish the game.  
 
