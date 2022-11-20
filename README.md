@@ -136,8 +136,7 @@ OUTPUT:
       200
       5
       2
-      
-      Enter the total sum: 87
+      Enter the cost of ticket: 87
       
       output:
       
