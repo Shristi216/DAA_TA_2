@@ -121,5 +121,30 @@ int main() // main
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
                                                             TEST CASES:
+                                                            
+      [case 1]
+      
+      Enter the total number of coins and notes: 8
+      
+      Enter the values of money: 1
+      2
+      5
+      10
+      20
+      50
+      100
+      200
+      
+      Enter the total sum: 87
+      
+      output:
+      
+      ![image](https://user-images.githubusercontent.com/91418248/202900306-a2604c82-8755-4535-aaea-c3820d8445ae.png)
 
+      
+      [case 2]
+      
+      
+
+Time Complexity: O(2^N)
                                                           
