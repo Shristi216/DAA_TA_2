@@ -139,9 +139,8 @@ int main() // main
       
       output:
       
-      ![image](https://user-images.githubusercontent.com/91418248/202900306-a2604c82-8755-4535-aaea-c3820d8445ae.png)
+      ![image](https://user-images.githubusercontent.com/91418248/202900366-19933513-b532-4e82-bcc6-25febab0ec3a.png)
 
-      
       [case 2]
       
       
