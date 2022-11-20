@@ -42,28 +42,29 @@ A sender (S) wants to send messages to a receiver (R). The message secrecy is no
 #include <bits/stdc++.h>
 using namespace std;
 
+
 static int Total_num_nodess;
 void printing_subsets(int A[], int no)  //  This function prints the subsets found
 {
-
     for (int i = 0; i < no; i++)
     {
         cout << " " << A[i];
     }
     cout << "\n";
 }
+
+
 int comparison(const void *Lhss, const void *Rhss) // This function is responsible for comparison
 {
-
     int *lhs = (int *)Lhss;
     int *rhs = (int *)Rhss;
     return *lhs > *rhs;
     
 }
+
+
 void subset_sum(int s[], int t[], int num, int t_size, int sum, int ite, int const target_sum)
 {
-
-
     Total_num_nodess++;
     if (target_sum == sum)
     {
@@ -110,8 +111,6 @@ void generateSubsets(int s[], int num, int target_sum) // this function finds su
 
 int main() // main
 {
-
-
     int num;
     cout << "Enter the size of array : ";
     cin >> num;
