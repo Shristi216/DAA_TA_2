@@ -6,7 +6,7 @@ Roll no.: 23
 
 Batch: A2
 
-                                                                     TA_2_DAA
+                                                              TA_2_DAA
                                                                      
  ==> Problem Statement: 
  
@@ -36,15 +36,16 @@ The computer generates a large number (say 500) of $a_i$. They are stored in the
 A sender (S) wants to send messages to a receiver (R). The message secrecy is not important. However, R wants to be sure that the message he is receiving is not from an imposter and has not been tampered with. $S$ and $R$ agree on a set of $a_i$ (say 500) and a set of totals $T_j$ (say 200). These numbers may be publicly known, but only $S$ knows which subsets of the $a_i$ correspond to which $T_j$. The message sent by $S$ is a subset of size 100 of $\{1,\dots,200\}$. He does this by sending 100 subsets of the $a_i$ corresponding to the message he wants to send.
 
 
-                                                              CODE:
+                                                         CODE:
                                                               
- 
  
 #include <bits/stdc++.h>
 using namespace std;
+
 static int Total_num_nodess;
 void printing_subsets(int A[], int no)  //  This function prints the subsets found
 {
+
     for (int i = 0; i < no; i++)
     {
         cout << " " << A[i];
@@ -53,12 +54,16 @@ void printing_subsets(int A[], int no)  //  This function prints the subsets fou
 }
 int comparison(const void *Lhss, const void *Rhss) // This function is responsible for comparison
 {
+
     int *lhs = (int *)Lhss;
     int *rhs = (int *)Rhss;
     return *lhs > *rhs;
+    
 }
 void subset_sum(int s[], int t[], int num, int t_size, int sum, int ite, int const target_sum)
 {
+
+
     Total_num_nodess++;
     if (target_sum == sum)
     {
@@ -84,6 +89,8 @@ void subset_sum(int s[], int t[], int num, int t_size, int sum, int ite, int con
         }
     }
 }
+
+
 void generateSubsets(int s[], int num, int target_sum) // this function finds subsets that generates the total required sum
 { 
     int *tuplet_vector = (int *)malloc(num * sizeof(int));
@@ -99,8 +106,12 @@ void generateSubsets(int s[], int num, int target_sum) // this function finds su
     }
     free(tuplet_vector);
 }
+
+
 int main() // main
 {
+
+
     int num;
     cout << "Enter the size of array : ";
     cin >> num;
