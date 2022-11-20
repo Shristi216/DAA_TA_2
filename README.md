@@ -127,8 +127,7 @@ OUTPUT:
   While buying a ticket for a movie show a person has variety of coins and notes (coins:1,2,5,10,20 and notes:10,20,50,100,200,1000,2000) and the person has to total     up  the coins and notes to meet the sum that will complete the required cost of buying the ticket.
 
 
- Enter the total number of coins and notes: 8
-      
+      Enter the total number of coins and notes: 8 
       Enter the values of money: 1
       20
       10
