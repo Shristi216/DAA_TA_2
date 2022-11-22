@@ -11,8 +11,6 @@ Batch: A2
  ==> Problem Statement: 
  
  Sum of the Subset problem using the Backtracking approach and demonstrate any two applications in the form of test cases.   
- 
- ![Example_subset_sum](https://user-images.githubusercontent.com/91418248/203297201-11d037ca-3295-4269-bfa7-19a46fd8f590.jpeg)
 
  
  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -22,7 +20,15 @@ The SUBSET-SUM problem involves determining whether or not a subset from a list 
 
 For example, if we consider the list of nums = [1, 2, 3, 4] . If the target = 7 , then there are two subsets that achieve this sum: {3, 4} and {1, 2, 4} 
 
+For Example :
 
+we have a givem array as 
+W = [5,10,12,13,15,18]
+Total sum = 73
+Required sum = 30
+so, the tree formed in below picture displays the node selection process.
+
+![Example_subset_sum](https://user-images.githubusercontent.com/91418248/203297201-11d037ca-3295-4269-bfa7-19a46fd8f590.jpeg)
 
                                                    CODE:
                                                               
