@@ -12,6 +12,9 @@ Batch: A2
  
  Sum of the Subset problem using the Backtracking approach and demonstrate any two applications in the form of test cases.   
  
+ ![Example_subset_sum](https://user-images.githubusercontent.com/91418248/203297201-11d037ca-3295-4269-bfa7-19a46fd8f590.jpeg)
+
+ 
  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
                                                                      
 
